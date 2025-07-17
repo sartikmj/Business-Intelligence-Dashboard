@@ -94,3 +94,9 @@ To organize your routes into different files/modules — especially useful in la
 🔸 Code	🔹 Purpose
 express.Router()	Create modular route handlers
 app.use('/path', router)	Mount those routes in main app
+
+
+
+<!-- All the dependencies installed for backend -->
+
+ ->npm i react-redux @reduxjs/toolkit react-datepicker react-router-dom @mui/material @emotion/react @emotion/styled @mui/icons-material @mui/x-data-grid @nivo/core @nivo/bar @nivo/geo @nivo/pie
