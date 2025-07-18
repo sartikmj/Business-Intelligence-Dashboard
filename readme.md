@@ -100,3 +100,14 @@ app.use('/path', router)	Mount those routes in main app
 <!-- All the dependencies installed for backend -->
 
  ->npm i react-redux @reduxjs/toolkit react-datepicker react-router-dom @mui/material @emotion/react @emotion/styled @mui/icons-material @mui/x-data-grid @nivo/core @nivo/bar @nivo/geo @nivo/pie
+
+
+
+-ThemeProvider
+
+<ThemeProvider> — What It Is
+<ThemeProvider> is a component from Material UI (MUI) (and also from styled-components/emotion) that lets you apply a custom theme (colors, typography, spacing, etc.) to your entire React app or a part of it.
+
+🔧 What It Does
+It makes your theme available to all components inside it via React Context, so MUI components (like <Button>, <Typography>, etc.) will automatically use the styles from your theme.
+
